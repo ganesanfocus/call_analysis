@@ -1,0 +1,10 @@
+openai-whisper
+pydub
+noisereduce
+librosa
+soundfile
+numpy
+torch
+requests
+git+https://github.com/m-bain/whisperx.git
+pyannote.audio
