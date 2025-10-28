@@ -1,0 +1,88 @@
+2025-10-28 19:26:06,548 | INFO | Downloading https://ai-elroi-bucket.s3.ap-south-1.amazonaws.com/call_audio/call__audio_bajaj_2_trimmed.wav
+2025-10-28 19:26:08,300 | INFO | Whisper start
+2025-10-28 19:26:47,184 | INFO | HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-10-28 19:26:47,187 | INFO | Whisper done
+2025-10-28 19:26:47,187 | INFO | Diarization start
+2025-10-28 19:33:58,492 | DEBUG | Registered checkpoint save hook for _speechbrain_save
+2025-10-28 19:33:58,492 | DEBUG | Registered checkpoint load hook for _speechbrain_load
+2025-10-28 19:33:58,492 | DEBUG | Registered checkpoint save hook for save
+2025-10-28 19:33:58,493 | DEBUG | Registered checkpoint load hook for load
+2025-10-28 19:33:59,051 | INFO | Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2025-10-28 19:33:59,051 | INFO | Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-10-28 19:33:59,051 | DEBUG | Registered checkpoint save hook for _save
+2025-10-28 19:33:59,051 | DEBUG | Registered checkpoint load hook for _recover
+2025-10-28 19:33:59,487 | WARNING | Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-10-28 19:34:01,814 | WARNING | Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-10-28 19:34:05,542 | INFO | Downloading https://ai-elroi-bucket.s3.ap-south-1.amazonaws.com/call_audio/call__audio_bajaj_2_trimmed.wav
+2025-10-28 19:34:08,471 | INFO | Whisper start
+2025-10-28 19:35:01,711 | INFO | HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-10-28 19:35:01,714 | INFO | Whisper done
+2025-10-28 19:35:01,714 | INFO | Diarization start
+2025-10-28 19:36:50,054 | INFO | Diarization done
+2025-10-28 19:41:42,777 | DEBUG | Registered checkpoint save hook for _speechbrain_save
+2025-10-28 19:41:42,777 | DEBUG | Registered checkpoint load hook for _speechbrain_load
+2025-10-28 19:41:42,777 | DEBUG | Registered checkpoint save hook for save
+2025-10-28 19:41:42,777 | DEBUG | Registered checkpoint load hook for load
+2025-10-28 19:41:43,069 | INFO | Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-10-28 19:41:43,069 | INFO | Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-10-28 19:41:43,070 | DEBUG | Registered checkpoint save hook for _save
+2025-10-28 19:41:43,070 | DEBUG | Registered checkpoint load hook for _recover
+2025-10-28 19:41:44,821 | INFO | Downloading https://ai-elroi-bucket.s3.ap-south-1.amazonaws.com/call_audio/call__audio_bajaj_2_trimmed.wav
+2025-10-28 19:41:46,262 | INFO | Whisper start
+2025-10-28 19:42:36,482 | INFO | HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-10-28 19:42:36,484 | INFO | Whisper done
+2025-10-28 19:42:36,484 | INFO | Diarization start
+2025-10-28 19:44:23,133 | INFO | Diarization done
+2025-10-28 19:44:23,133 | INFO | GPT-4 scoring start
+2025-10-28 19:44:28,067 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-28 19:44:28,077 | INFO | GPT-4 scoring done
+2025-10-28 19:47:07,597 | DEBUG | Registered checkpoint save hook for _speechbrain_save
+2025-10-28 19:47:07,597 | DEBUG | Registered checkpoint load hook for _speechbrain_load
+2025-10-28 19:47:07,597 | DEBUG | Registered checkpoint save hook for save
+2025-10-28 19:47:07,597 | DEBUG | Registered checkpoint load hook for load
+2025-10-28 19:47:07,879 | INFO | Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-10-28 19:47:07,879 | INFO | Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-10-28 19:47:07,880 | DEBUG | Registered checkpoint save hook for _save
+2025-10-28 19:47:07,880 | DEBUG | Registered checkpoint load hook for _recover
+2025-10-28 19:47:09,168 | INFO | Downloading https://ai-elroi-bucket.s3.ap-south-1.amazonaws.com/call_audio/call__audio_bajaj_2_trimmed.wav
+2025-10-28 19:47:11,552 | INFO | Whisper start
+2025-10-28 19:48:18,529 | INFO | HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-10-28 19:48:18,532 | INFO | Whisper done
+2025-10-28 19:48:18,532 | INFO | Diarization start
+2025-10-28 19:49:56,521 | INFO | Diarization done
+2025-10-28 19:49:56,521 | INFO | GPT-4 scoring start
+2025-10-28 19:49:58,346 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-28 19:49:58,355 | INFO | GPT-4 raw reply: {"politeness":0,"clarity":0,"knowledge":0,"compliance":0}
+2025-10-28 19:50:02,856 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-28 19:50:02,863 | INFO | Finished call call__audio_bajaj_2_trimmed in 173.7 s
+2025-10-28 19:52:57,864 | DEBUG | Registered checkpoint save hook for _speechbrain_save
+2025-10-28 19:52:57,864 | DEBUG | Registered checkpoint load hook for _speechbrain_load
+2025-10-28 19:52:57,864 | DEBUG | Registered checkpoint save hook for save
+2025-10-28 19:52:57,864 | DEBUG | Registered checkpoint load hook for load
+2025-10-28 19:52:58,204 | INFO | Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-10-28 19:52:58,204 | INFO | Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-10-28 19:52:58,204 | DEBUG | Registered checkpoint save hook for _save
+2025-10-28 19:52:58,205 | DEBUG | Registered checkpoint load hook for _recover
+2025-10-28 19:52:59,558 | INFO | Downloading https://ai-elroi-bucket.s3.ap-south-1.amazonaws.com/call_audio/call__audio_bajaj_2_trimmed.wav
+2025-10-28 19:53:01,078 | INFO | Whisper start
+2025-10-28 19:53:27,096 | INFO | HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 500 Internal Server Error"
+2025-10-28 19:53:27,096 | INFO | Retrying request to /audio/transcriptions in 0.447305 seconds
+2025-10-28 19:53:57,850 | INFO | HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-10-28 19:53:57,852 | INFO | Whisper done
+2025-10-28 19:53:57,852 | INFO | Diarization start
+2025-10-28 19:55:38,262 | INFO | Diarization done
+2025-10-28 19:55:38,262 | INFO | GPT-4 scoring start
+2025-10-28 19:55:41,408 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-28 19:55:41,420 | INFO | GPT-4 raw reply: {"politeness":0,"clarity":0,"knowledge":0,"compliance":0}
+2025-10-28 19:55:45,190 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-28 19:55:45,200 | INFO | Finished call call__audio_bajaj_2_trimmed in 165.6 s
+2025-10-28 20:00:18,747 | DEBUG | Registered checkpoint save hook for _speechbrain_save
+2025-10-28 20:00:18,747 | DEBUG | Registered checkpoint load hook for _speechbrain_load
+2025-10-28 20:00:18,747 | DEBUG | Registered checkpoint save hook for save
+2025-10-28 20:00:18,747 | DEBUG | Registered checkpoint load hook for load
+2025-10-28 20:00:19,102 | INFO | Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-10-28 20:00:19,103 | INFO | Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-10-28 20:00:19,105 | DEBUG | Registered checkpoint save hook for _save
+2025-10-28 20:00:19,105 | DEBUG | Registered checkpoint load hook for _recover
+2025-10-28 20:00:20,926 | INFO | Downloading https://ai-elroi-bucket.s3.ap-south-1.amazonaws.com/call_audio/call__audio_bajaj_2_trimmed.wav
+2025-10-28 20:00:22,306 | INFO | Whisper start

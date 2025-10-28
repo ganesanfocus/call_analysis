@@ -1,4 +1,6 @@
 .venv
 venv
 .env
-__pyacache__/*
+__pycache__/*
+chunks
+audio
